@@ -1,0 +1,77 @@
+.form-search-inv {
+    margin-left: 3rem;
+}
+.form-search-inv input {
+    margin-bottom: 1rem;
+}
+
+.inventory-search-item {
+    display: grid;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #111;
+
+    max-width: 10rem;
+    max-height: 10rem;
+
+    min-width: 10rem;
+    min-height: 10rem;
+
+    animation: title-anim 0.3s;
+    -o-animation: title-anim 0.3s;
+    -moz-animation: title-anim 0.3s;
+    -webkit-animation: title-anim 0.3s;
+}
+
+.inventory-search-item span {
+    font-size: 12px;
+}
+
+.search-inv-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 95vw;
+
+    margin-left: 2rem;
+
+    overflow: auto;
+}
+
+.search-inventory-image {
+    width: 5rem;
+}
+
+.inventory-search-item img {
+    margin-left: 2rem;
+}
+
+#sticker_info {
+    color: rgba(0, 0, 0, 0.0);
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 10rem;
+    max-height: 2rem;
+
+    transform: scale(0.6);
+
+    margin-left: 5.5rem;
+    margin-top: -7.8rem;
+}
+
+@keyframes title-anim {
+    from { transform: scale(0.1);}
+    to {transform: scale(1.0);}
+}
+@-o-keyframes title-anim {
+    from { transform: scale(0.1);}
+    to {transform: scale(1.0);}
+}
+@-moz-keyframes title-anim {
+    from { transform: scale(0.1);}
+    to {transform: scale(1.0);}
+}
+@-webkit-keyframes title-anim {
+    from { transform: scale(0.1);}
+    to {transform: scale(1.0);}
+}

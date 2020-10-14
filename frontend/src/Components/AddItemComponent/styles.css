@@ -1,0 +1,56 @@
+.add-item-background {
+    position: absolute;
+    width: 100vw;
+    height: 300vw;
+
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.add-item-flex {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.add-item-form {
+    background-color: #fafafa;
+    padding: 5rem;
+
+    animation: title-anim 0.3s;
+    -o-animation: title-anim 0.3s;
+    -moz-animation: title-anim 0.3s;
+    -webkit-animation: title-anim 0.3s;
+}
+
+.add-item-form input {
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 0.9rem;
+    margin-top: 0.2rem;
+}
+
+.add-item-form button { 
+    margin-top: 1rem;
+
+}
+
+@keyframes title-anim {
+    from { transform: scale(0.1);}
+    to {transform: scale(1.0);}
+}
+@-o-keyframes title-anim {
+    from { transform: scale(0.1);}
+    to {transform: scale(1.0);}
+}
+@-moz-keyframes title-anim {
+    from { transform: scale(0.1);}
+    to {transform: scale(1.0);}
+}
+@-webkit-keyframes title-anim {
+    from { transform: scale(0.1);}
+    to {transform: scale(1.0);}
+}

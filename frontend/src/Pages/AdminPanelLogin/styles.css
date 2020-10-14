@@ -1,0 +1,63 @@
+.admin-login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 100vh;
+
+    background-color: #111;
+}
+
+.admin-form-login {
+    padding: 5rem;
+    background-color: #fafafa;
+
+    animation: title-anim 0.3s;
+    -o-animation: title-anim 0.3s;
+    -moz-animation: title-anim 0.3s;
+    -webkit-animation: title-anim 0.3s;
+}
+
+.input-style {
+    margin-bottom: 1rem;
+}
+
+.input-style span {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.input-style input {
+    outline: none;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 0.4rem;
+}
+
+button {
+    outline: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    font-weight: bold;
+    border: none;
+    background-color: #111;
+    color: white;
+}
+
+@keyframes title-anim {
+    from { transform: scale(0.1);}
+    to {transform: scale(1.0);}
+}
+@-o-keyframes title-anim {
+    from { transform: scale(0.1);}
+    to {transform: scale(1.0);}
+}
+@-moz-keyframes title-anim {
+    from { transform: scale(0.1);}
+    to {transform: scale(1.0);}
+}
+@-webkit-keyframes title-anim {
+    from { transform: scale(0.1);}
+    to {transform: scale(1.0);}
+}
