@@ -1,4 +1,7 @@
-#Database
+# Demo Video
+<iframe width="560" height="315" src="https://www.youtube.com/embed/n8TG1726oW0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+# Database
 ```sql
 CREATE DATABASE IF NOT EXISTS `csgostore` /*!40100 DEFAULT CHARACTER SET utf8mb4 */;
 USE `csgostore`;
