@@ -1,5 +1,5 @@
 # Home
-<img src="https://i.imgur.com/hM4FDij.png" width="10rem" />
+<img src="https://i.imgur.com/hM4FDij.png" width="200rem" />
 
 # Database
 ```sql
