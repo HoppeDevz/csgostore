@@ -1,6 +1,9 @@
-# Imgs
+# Pictures
 <img src="https://i.imgur.com/hM4FDij.png" width="1000rem" />
 <img src="https://i.imgur.com/aUf7HJP.png" width="1000rem" />
+
+# Demo Video
+See the demo video [Here](https://www.youtube.com/watch?v=n8TG1726oW0)
 
 # Database
 ```sql
